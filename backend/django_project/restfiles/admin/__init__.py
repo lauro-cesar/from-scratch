@@ -1,0 +1,2 @@
+
+from .restimage import RestImageModelAdmin

@@ -1,0 +1,40 @@
+{% extends 'accountprofilemodel/accountprofilemodel_base.html' %}
+{% load i18n l10n static project_tags%}
+
+
+{% block page_content_body_nav_bar %}
+<nav class="navbar navbar-expand navbar-white navbar-dark">
+  <!-- Right navbar links -->
+  <ul class="navbar-nav mr-auto">
+    <!-- Navbar Search -->
+    <li class="nav-item">
+      <a class="btn btn-xs  bg-olive" href="{{ object.get_list_url }}">
+        <i class="fas fa-angle-left"></i>
+       Voltar
+      </a>
+    </li>    
+
+    <li class="nav-item ml-2">
+      <a class="btn btn-xs  bg-warning" href="{{ object.get_update_url }}">
+        <i class="fas fa-edit"></i>
+        Editar
+      </a>  
+    </li>  
+
+  </ul>
+
+  <a class="btn btn-xs  bg-danger " href="{{ object.get_delete_url }}">
+    <i class="fas fa-trash"></i>
+    Remover
+  </a>  
+
+</nav>
+{% endblock page_content_body_nav_bar %}
+
+
+{% block page_content_body_main %}
+<div class="container-fluid bg-white p-3">
+  Detalhes do objeto??
+
+  </div>
+{% endblock page_content_body_main %}

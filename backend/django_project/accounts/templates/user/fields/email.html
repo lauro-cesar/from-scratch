@@ -1,0 +1,1 @@
+{% load i18n static add_css%}{% spaceless %}{{ form.email.errors }}<label for="{{form.email.id_for_label}}">{{form.email.label}}</label>{{form.email|add_attr:"form-control"}}{% endspaceless %}

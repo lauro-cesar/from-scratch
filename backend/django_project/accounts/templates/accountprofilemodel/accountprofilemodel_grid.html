@@ -1,0 +1,44 @@
+{% load i18n l10n static project_tags %}
+<div class="segment">
+<table class="table table-bordered table-sm table-striped table-hover text-nowrap">
+    <thead>
+      <tr>
+        <th style="width: 30px">#</th>
+        <th></th>      
+        <th>Situação</th>                 
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for record in object_list %}                
+        
+        <tr>
+
+            <td>{{ record.id }}</td>
+            
+            <td >   
+            <nav class="navbar navbar-expand ">             
+              <a class="btn btn-xs nav-item  bg-warning" href="{{ record.get_update_url }}">
+                <i class="fas fa-edit"></i>
+                Editar
+              </a>
+            </nav>
+          </td>   
+            
+
+            <td style="width:30px;">
+            <nav class="navbar navbar-expand ">                        
+              <a class="btn btn-xs nav-item  bg-danger" href="{{ record.get_delete_url }}" >
+                <i class="fas fa-trash"></i>
+                Remover
+              </a>     
+              </nav>             
+          </td>
+            
+            <td>{{ record.id }}</td>
+
+          </tr>
+    {% endfor %}
+    </tbody>
+  </table>  
+</div>

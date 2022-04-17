@@ -1,0 +1,601 @@
+{
+  "data": [
+    {
+      "id": 1414006,
+      "leg": null,
+      "info": null,
+      "time": {
+        "date": "2021-11-09",
+        "time": "00:15:00",
+        "minute": null,
+        "datetime": "2021-11-09 00:15:00",
+        "timezone": "UTC",
+        "timestamp": 1636416900
+      },
+      "week": "45",
+      "pitch": null,
+      "teams": {
+        "away": {
+          "id": 2940,
+          "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2940.png",
+          "form": null,
+          "name": "Boca Juniors",
+          "coach_id": null,
+          "kit_colors": {
+            "away_main_color": "#002f91",
+            "away_number_color": "#ffffff",
+            "away_second_color": "#ffff00",
+            "away_gk_main_color": "#6b728f",
+            "away_gk_number_color": "#ffffff",
+            "away_gk_second_color": "#6b728f"
+          },
+          "short_code": "BOC"
+        },
+        "home": {
+          "id": 2933,
+          "img": "https://cdn.soccersapi.com/images/soccer/teams/80/2933.png",
+          "form": null,
+          "name": "Aldosivi",
+          "coach_id": null,
+          "kit_colors": {
+            "home_main_color": "#ffff00",
+            "home_number_color": "#000000",
+            "home_second_color": "#ffff00",
+            "home_gk_main_color": "#ff6600",
+            "home_gk_number_color": "#ffffff",
+            "home_gk_second_color": "#276775"
+          },
+          "short_code": "CAA"
+        }
+      },
+      "league": {
+        "id": 856,
+        "name": "Superliga",
+        "type": "",
+        "country_id": "12",
+        "country_code": "ar",
+        "country_flag": "https://cdn.soccersapi.com/images/countries/30/ar.png",
+        "country_name": "Argentina"
+      },
+      "scores": {
+        "et_score": null,
+        "ft_score": null,
+        "ht_score": null,
+        "ps_score": null,
+        "away_score": null,
+        "home_score": null
+      },
+      "status": 0,
+      "deleted": "0",
+      "coverage": {
+        "has_tvs": 0,
+        "has_lineups": 0,
+        "has_standings": 1
+      },
+      "group_id": "3518",
+      "round_id": "140079",
+      "stage_id": "1",
+      "venue_id": "1650",
+      "season_id": "10544",
+      "standings": {
+        "away_position": 0,
+        "home_position": 0
+      },
+      "assistants": {
+        "first_assistant_id": null,
+        "fourth_assistant_id": null,
+        "second_assistant_id": null
+      },
+      "attendance": null,
+      "group_name": "Liga Profesional",
+      "referee_id": null,
+      "round_name": "20",
+      "stage_name": "Regular Season",
+      "season_name": "2021",
+      "status_name": "Notstarted",
+      "aggregate_id": null,
+      "status_period": null,
+      "weather_report": null,
+      "winner_team_id": null
+    },
+    {
+      "id": 1467517,
+      "leg": null,
+      "info": null,
+      "time": {
+        "date": "2021-11-09",
+        "time": "00:00:00",
+        "minute": null,
+        "datetime": "2021-11-09 00:00:00",
+        "timezone": "UTC",
+        "timestamp": 1636416000
+      },
+      "week": "45",
+      "pitch": null,
+      "teams": {
+        "away": {
+          "id": 4628,
+          "img": "https://cdn.soccersapi.com/images/soccer/teams/80/4628.png",
+          "form": null,
+          "name": "Brown de Adrogue",
+          "coach_id": null,
+          "kit_colors": {
+            "away_main_color": "#D8D8D8",
+            "away_number_color": "#000000",
+            "away_second_color": "#D8D8D8",
+            "away_gk_main_color": "#efc131",
+            "away_gk_number_color": "#000000",
+            "away_gk_second_color": "#333333"
+          },
+          "short_code": "BDA"
+        },
+        "home": {
+          "id": 4631,
+          "img": "https://cdn.soccersapi.com/images/soccer/teams/80/4631.png",
+          "form": null,
+          "name": "Independiente Riv.",
+          "coach_id": null,
+          "kit_colors": {
+            "home_main_color": "#ffffff",
+            "home_number_color": "#dd0000",
+            "home_second_color": "#000000",
+            "home_gk_main_color": "#efc131",
+            "home_gk_number_color": "#000000",
+            "home_gk_second_color": "#333333"
+          },
+          "short_code": "IRM"
+        }
+      },
+      "league": {
+        "id": 854,
+        "name": "Primera Nacional",
+        "type": "Primera Nacional, Group B",
+        "country_id": "12",
+        "country_code": "ar",
+        "country_flag": "https://cdn.soccersapi.com/images/countries/30/ar.png",
+        "country_name": "Argentina"
+      },
+      "scores": {
+        "et_score": null,
+        "ft_score": null,
+        "ht_score": null,
+        "ps_score": null,
+        "away_score": null,
+        "home_score": null
+      },
+      "status": 0,
+      "deleted": "0",
+      "coverage": {
+        "has_tvs": 1,
+        "has_lineups": 0,
+        "has_standings": 1
+      },
+      "group_id": null,
+      "round_id": "145419",
+      "stage_id": null,
+      "venue_id": "1767",
+      "season_id": "7694",
+      "standings": {
+        "away_position": 0,
+        "home_position": 0
+      },
+      "assistants": {
+        "first_assistant_id": null,
+        "fourth_assistant_id": null,
+        "second_assistant_id": null
+      },
+      "attendance": null,
+      "group_name": null,
+      "referee_id": null,
+      "round_name": "33",
+      "stage_name": null,
+      "season_name": "2021",
+      "status_name": "Notstarted",
+      "aggregate_id": null,
+      "status_period": null,
+      "weather_report": null,
+      "winner_team_id": null
+    },
+    {
+      "id": 1467507,
+      "leg": null,
+      "info": null,
+      "time": {
+        "date": "2021-11-09",
+        "time": "23:35:00",
+        "minute": null,
+        "datetime": "2021-11-09 23:35:00",
+        "timezone": "UTC",
+        "timestamp": 1636500900
+      },
+      "week": "45",
+      "pitch": null,
+      "teams": {
+        "away": {
+          "id": 4636,
+          "img": "https://cdn.soccersapi.com/images/soccer/teams/80/4636.png",
+          "form": null,
+          "name": "Belgrano",
+          "coach_id": null,
+          "kit_colors": {
+            "away_main_color": "#22b7ff",
+            "away_number_color": "#000000",
+            "away_second_color": "#000000",
+            "away_gk_main_color": "#ffff00",
+            "away_gk_number_color": "#000000",
+            "away_gk_second_color": "#000000"
+          },
+          "short_code": "BEL"
+        },
+        "home": {
+          "id": 4648,
+          "img": "https://cdn.soccersapi.com/images/soccer/teams/80/4648.png",
+          "form": null,
+          "name": "Agropecuario",
+          "coach_id": null,
+          "kit_colors": {
+            "home_main_color": "#D8D8D8",
+            "home_number_color": "#000000",
+            "home_second_color": "#D8D8D8",
+            "home_gk_main_color": "#efc131",
+            "home_gk_number_color": "#000000",
+            "home_gk_second_color": "#333333"
+          },
+          "short_code": "CAA"
+        }
+      },
+      "league": {
+        "id": 854,
+        "name": "Primera Nacional",
+        "type": "Primera Nacional, Group A",
+        "country_id": "12",
+        "country_code": "ar",
+        "country_flag": "https://cdn.soccersapi.com/images/countries/30/ar.png",
+        "country_name": "Argentina"
+      },
+      "scores": {
+        "et_score": null,
+        "ft_score": null,
+        "ht_score": null,
+        "ps_score": null,
+        "away_score": null,
+        "home_score": null
+      },
+      "status": 0,
+      "deleted": "0",
+      "coverage": {
+        "has_tvs": 1,
+        "has_lineups": 0,
+        "has_standings": 1
+      },
+      "group_id": null,
+      "round_id": "145419",
+      "stage_id": null,
+      "venue_id": "37016197",
+      "season_id": "7694",
+      "standings": {
+        "away_position": 0,
+        "home_position": 0
+      },
+      "assistants": {
+        "first_assistant_id": null,
+        "fourth_assistant_id": null,
+        "second_assistant_id": null
+      },
+      "attendance": null,
+      "group_name": null,
+      "referee_id": null,
+      "round_name": "33",
+      "stage_name": null,
+      "season_name": "2021",
+      "status_name": "Notstarted",
+      "aggregate_id": null,
+      "status_period": null,
+      "weather_report": null,
+      "winner_team_id": null
+    },
+    {
+      "id": 1397464,
+      "leg": null,
+      "info": null,
+      "time": {
+        "date": "2021-11-09",
+        "time": "22:00:00",
+        "minute": null,
+        "datetime": "2021-11-09 22:00:00",
+        "timezone": "UTC",
+        "timestamp": 1636495200
+      },
+      "week": "45",
+      "pitch": null,
+      "teams": {
+        "away": {
+          "id": 3530,
+          "img": "https://cdn.soccersapi.com/images/soccer/teams/80/3530.png",
+          "form": null,
+          "name": "Clube Do Remo",
+          "coach_id": null,
+          "kit_colors": {
+            "away_main_color": "#000033",
+            "away_number_color": "#ffffff",
+            "away_second_color": "#ffffff",
+            "away_gk_main_color": "#efc131",
+            "away_gk_number_color": "#000000",
+            "away_gk_second_color": "#333333"
+          },
+          "short_code": "CDR"
+        },
+        "home": {
+          "id": 3491,
+          "img": "https://cdn.soccersapi.com/images/soccer/teams/80/3491.png",
+          "form": null,
+          "name": "Operario Ferroviario",
+          "coach_id": null,
+          "kit_colors": {
+            "home_main_color": "#D8D8D8",
+            "home_number_color": "#000000",
+            "home_second_color": "#D8D8D8",
+            "home_gk_main_color": "#efc131",
+            "home_gk_number_color": "#000000",
+            "home_gk_second_color": "#333333"
+          },
+          "short_code": "FER"
+        }
+      },
+      "league": {
+        "id": 1359,
+        "name": "Brasileiro Serie B",
+        "type": "",
+        "country_id": "25",
+        "country_code": "br",
+        "country_flag": "https://cdn.soccersapi.com/images/countries/30/br.png",
+        "country_name": "Brazil"
+      },
+      "scores": {
+        "et_score": null,
+        "ft_score": null,
+        "ht_score": null,
+        "ps_score": null,
+        "away_score": null,
+        "home_score": null
+      },
+      "status": 0,
+      "deleted": "0",
+      "coverage": {
+        "has_tvs": 1,
+        "has_lineups": 0,
+        "has_standings": 1
+      },
+      "group_id": "425",
+      "round_id": "138285",
+      "stage_id": "1",
+      "venue_id": "2785",
+      "season_id": "7724",
+      "standings": {
+        "away_position": 0,
+        "home_position": 0
+      },
+      "assistants": {
+        "first_assistant_id": null,
+        "fourth_assistant_id": null,
+        "second_assistant_id": null
+      },
+      "attendance": null,
+      "group_name": "Brasileiro Serie B",
+      "referee_id": null,
+      "round_name": "35",
+      "stage_name": "Regular Season",
+      "season_name": "2021",
+      "status_name": "Notstarted",
+      "aggregate_id": null,
+      "status_period": null,
+      "weather_report": null,
+      "winner_team_id": null
+    },
+    {
+      "id": 1397471,
+      "leg": null,
+      "info": null,
+      "time": {
+        "date": "2021-11-09",
+        "time": "22:00:00",
+        "minute": null,
+        "datetime": "2021-11-09 22:00:00",
+        "timezone": "UTC",
+        "timestamp": 1636495200
+      },
+      "week": "45",
+      "pitch": null,
+      "teams": {
+        "away": {
+          "id": 3534,
+          "img": "https://cdn.soccersapi.com/images/soccer/teams/80/3534.png",
+          "form": null,
+          "name": "Nautico PE",
+          "coach_id": null,
+          "kit_colors": {
+            "away_main_color": "#D8D8D8",
+            "away_number_color": "#000000",
+            "away_second_color": "#D8D8D8",
+            "away_gk_main_color": "#006600",
+            "away_gk_number_color": "#ffffff",
+            "away_gk_second_color": "#006600"
+          },
+          "short_code": "NAU"
+        },
+        "home": {
+          "id": 6557,
+          "img": "https://cdn.soccersapi.com/images/soccer/teams/80/6557.png",
+          "form": null,
+          "name": "Confianca",
+          "coach_id": null,
+          "kit_colors": {
+            "home_main_color": "#0000cc",
+            "home_number_color": "#dd0000",
+            "home_second_color": "#0000cc",
+            "home_gk_main_color": "#efc131",
+            "home_gk_number_color": "#000000",
+            "home_gk_second_color": "#333333"
+          },
+          "short_code": "CON"
+        }
+      },
+      "league": {
+        "id": 1359,
+        "name": "Brasileiro Serie B",
+        "type": "",
+        "country_id": "25",
+        "country_code": "br",
+        "country_flag": "https://cdn.soccersapi.com/images/countries/30/br.png",
+        "country_name": "Brazil"
+      },
+      "scores": {
+        "et_score": null,
+        "ft_score": null,
+        "ht_score": null,
+        "ps_score": null,
+        "away_score": null,
+        "home_score": null
+      },
+      "status": 0,
+      "deleted": "0",
+      "coverage": {
+        "has_tvs": 1,
+        "has_lineups": 0,
+        "has_standings": 1
+      },
+      "group_id": "425",
+      "round_id": "138285",
+      "stage_id": "1",
+      "venue_id": "217",
+      "season_id": "7724",
+      "standings": {
+        "away_position": 0,
+        "home_position": 0
+      },
+      "assistants": {
+        "first_assistant_id": null,
+        "fourth_assistant_id": null,
+        "second_assistant_id": null
+      },
+      "attendance": null,
+      "group_name": "Brasileiro Serie B",
+      "referee_id": null,
+      "round_name": "35",
+      "stage_name": "Regular Season",
+      "season_name": "2021",
+      "status_name": "Notstarted",
+      "aggregate_id": null,
+      "status_period": null,
+      "weather_report": null,
+      "winner_team_id": "6557"
+    },
+    {
+      "id": 1424384,
+      "leg": null,
+      "info": null,
+      "time": {
+        "date": "2021-11-09",
+        "time": "23:00:00",
+        "minute": null,
+        "datetime": "2021-11-09 23:00:00",
+        "timezone": "UTC",
+        "timestamp": 1636498800
+      },
+      "week": "45",
+      "pitch": null,
+      "teams": {
+        "away": {
+          "id": 19346,
+          "img": "https://cdn.soccersapi.com/images/soccer/teams/80/19346.png",
+          "form": null,
+          "name": "Tlaxcala",
+          "coach_id": null,
+          "kit_colors": {
+            "away_main_color": "#D8D8D8",
+            "away_number_color": "#000000",
+            "away_second_color": "#D8D8D8",
+            "away_gk_main_color": "#efc131",
+            "away_gk_number_color": "#000000",
+            "away_gk_second_color": "#333333"
+          },
+          "short_code": "TLA"
+        },
+        "home": {
+          "id": 6959,
+          "img": "https://cdn.soccersapi.com/images/soccer/teams/80/6959.png",
+          "form": null,
+          "name": "Zacatepec",
+          "coach_id": null,
+          "kit_colors": {
+            "home_main_color": "#ffffff",
+            "home_number_color": "#000000",
+            "home_second_color": "#000000",
+            "home_gk_main_color": "#ffff00",
+            "home_gk_number_color": "#dd0000",
+            "home_gk_second_color": "#000000"
+          },
+          "short_code": "ATM"
+        }
+      },
+      "league": {
+        "id": 2798,
+        "name": "Ascenso MX - Apertura",
+        "type": "Liga de Expansion MX, Apertura",
+        "country_id": "76",
+        "country_code": "mx",
+        "country_flag": "https://cdn.soccersapi.com/images/countries/30/mx.png",
+        "country_name": "Mexico"
+      },
+      "scores": {
+        "et_score": null,
+        "ft_score": null,
+        "ht_score": null,
+        "ps_score": null,
+        "away_score": null,
+        "home_score": null
+      },
+      "status": 0,
+      "deleted": "0",
+      "coverage": {
+        "has_tvs": 1,
+        "has_lineups": 0,
+        "has_standings": 1
+      },
+      "group_id": "1",
+      "round_id": "141256",
+      "stage_id": "3",
+      "venue_id": "360",
+      "season_id": "10593",
+      "standings": {
+        "away_position": 0,
+        "home_position": 0
+      },
+      "assistants": {
+        "first_assistant_id": null,
+        "fourth_assistant_id": null,
+        "second_assistant_id": null
+      },
+      "attendance": null,
+      "group_name": "Apertura",
+      "referee_id": null,
+      "round_name": "16",
+      "stage_name": "Apertura",
+      "season_name": "2021",
+      "status_name": "Notstarted",
+      "aggregate_id": null,
+      "status_period": null,
+      "weather_report": null,
+      "winner_team_id": null
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "plan": "pack_20",
+    "user": "netominas",
+    "count": 6,
+    "pages": 1,
+    "total": 6,
+    "requests_left": 2993
+  }
+}

@@ -1,0 +1,152 @@
+{% load i18n l10n project_tags static  %}
+<!DOCTYPE html>
+{% block pre_html_tag %}{% endblock pre_html_tag%}
+<html lang="pt-br">
+<head>
+  <title>
+    {% block html_title %}{% endblock html_title %}
+  </title>  
+{% block html_meta %}
+ <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+ 
+{% endblock html_meta %}
+
+
+
+
+
+{% block head_css_links %}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/reset.min.css" integrity="sha512-Hku6E1/1Cuu0fOfOzEVBgXmElwbpIvTkO8sxWBcx9rGR4rmhb9o6VX+1kDWsBimhphTFzDnloLQEc4Ijpr7dNA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/site.min.css" integrity="sha512-5yxpdenKx5qAR4FJvFjFgtGmpNriZ0Nak38uA3KPSuUFfy8iYi8GkjgXxxfnowH8w81BkIcfBG+4QYngf2FPRw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/sidebar.min.css" integrity="sha512-l74DvoQfunHVU2XU78fkSoyYJ6k6FzujNwWB5c3/U5AplWV6HnuyCfj4uNSEqFvd7i1nBvhUQ2Pr3e6JfkCPOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/menu.min.css" integrity="sha512-ox96Q1iqhM5TvdY4gVbz6FXoDwsR/Q8jq15kWReQNefC+uUGCv+pkMbLOtr176K3+bfrQQv6gTDAvhL1PUw2YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/container.min.css" integrity="sha512-SXxjjKOeD8WYj3u56VSyXYd+lQOG1rBN9pf1n7uamIvyq8klAjvH6wFdDD+nX9LA9/FPsgBvSIEFNvtFE3LKoA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css" integrity="sha512-8Tb+T7SKUFQWOPIQCaLDWWe1K/SY8hvHl7brOH8Nz5z1VT8fnf8B+9neoUzmFY3OzkWMMs3OjrwZALgB1oXFBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/item.min.css" integrity="sha512-FegoQ4GicaEtaxCERXNNFN0eloN0wsebNJ8E0kwIJSKBGgfNWFhO0oQhzVPywJt19SwiF4eN/CvDvIKhgIyuhw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/segment.min.css" integrity="sha512-heuTVGo9s2Q6N9wruuzr4S3GCZWhVQuKpSM5hMNUFMAyxTvUDU3gme8NaVtgfET6rtnh8Eaet16nj7ihVSlI5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+{% endblock head_css_links %}
+
+
+{% block head_css_inline %}
+<style>
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+div.pusher {
+  height: 100%;
+}
+
+
+</style>
+
+{% endblock head_css_inline %}
+
+{% block head_js_links %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/site.min.js" integrity="sha512-QopOpigIapIapWckrGgzB0tNEIGBVSKWhN9Bh4vNl8JRDHvVHvbJoFlg/bSGAyF/vdcLT0RcL6w8e8l5M8nvRg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/sidebar.min.js" integrity="sha512-1tmZBYaLOUohS48wc5egam1rTAIi71yvIpxj0FXHo6FskhgMF3LyCAdLvCFYi4e/L0GfH6BFtDBFD2wVa645Dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/visibility.min.js" integrity="sha512-pcX/bEmbHWxW0fvRU70A6UqVXm0Z1tBJTwSLHE3hE8AAhG4hDL8R19Oho4DmdCNNYrgDSyHhH+ALNg5d5SFxxw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+{% endblock head_js_links %}
+
+{% block head_js_inline %}
+ <script type="text/javascript"> 
+  var globalForm = {};
+  var webSocket = null;
+  </script>
+{% endblock head_js_inline%}
+</head>
+
+{% block pre_body_tag %}{% endblock pre_body_tag %}
+  
+
+{% block body_tag %}<body>{% endblock body_tag %}
+
+
+
+
+
+  {% block side_menu %}
+
+
+
+
+
+
+
+
+  {% endblock side_menu %}  
+
+
+
+
+
+
+{% block core_body %}
+
+
+<div class="ui vertical  center aligned segment">
+  {% block core_top_menu %}
+  {% endblock core_top_menu %}
+
+  {% block page_content_body %}
+  {% endblock page_content_body %}  
+
+</div>
+
+
+
+
+{% endblock core_body %}  
+
+
+
+
+
+{% block end_body_tag %}
+
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+
+
+
+
+$("#button_close_modal_global_filtros").click(function () {
+$("#modal_global_filtros").toggle();
+})
+
+
+
+
+$("#button_close_modal_alert_message").click(function () {
+$("#modal_alert_message").toggle();
+})
+
+});
+
+</script>
+
+{% endblock end_body_tag %}
+
+
+
+</body>
+{% block post_body_tag %}
+{% endblock post_body_tag %}
+</html>
+{% block post_html_tag %}{% endblock post_html_tag %}

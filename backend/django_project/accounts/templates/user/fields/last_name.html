@@ -1,0 +1,1 @@
+{% load i18n static add_css%}{% spaceless %}{{ form.last_name.errors }}<label for="{{form.last_name.id_for_label}}">{{form.last_name.label}}</label>{{form.last_name|add_attr:"form-control"}}{% endspaceless %}

@@ -1,0 +1,1 @@
+{% load i18n static add_css%}{% spaceless %}{{ form.date_joined.errors }}<label for="{{form.date_joined.id_for_label}}">{{form.date_joined.label}}</label>{{form.date_joined|add_attr:"form-control"}}{% endspaceless %}

@@ -1,0 +1,1 @@
+{% load i18n static add_css%}{% spaceless %}{{ form.last_login.errors }}<label for="{{form.last_login.id_for_label}}">{{form.last_login.label}}</label>{{form.last_login|add_attr:"form-control"}}{% endspaceless %}

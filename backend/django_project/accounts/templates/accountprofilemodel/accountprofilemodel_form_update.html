@@ -1,0 +1,68 @@
+{% load i18n l10n static project_tags %}
+    
+
+        {% csrf_token %}
+
+
+    
+    <div class="form-group row">
+
+
+{% for field in form %}
+
+<div class="form-group col-sm-12 col-md-5"> 
+{% spaceless %}{{ field.errors }}<label for="{{field.id_for_label}}">{{field.label}}</label>{{field|add_attr:"form-control"}}{% endspaceless %}
+</div>
+{% endfor %}
+
+
+        </div>
+
+    </div>
+    <div class="dropdown-divider"></div>
+
+    <div class="small-box-footer">
+        <nav class="navbar navbar-expand">
+            <ul class="navbar-nav ml-auto">                   
+              <li class="nav-item">
+                <button class="btn btn-md  bg-olive" type="submit">
+                <i class="fas pr-2 fa-save"></i>
+                Atualizar
+              </button>
+              </li>    
+            </ul>
+        </nav>
+      </div>
+
+
+
+{% if form.subject.errors %}
+<ol>
+{% for error in form.subject.errors %}
+  <li><strong>{{ error|escape }}</strong></li>
+{% endfor %}
+</ol>
+{% endif %}
+
+
+{% if form.non_field_errors %}
+<div class="card-header">
+<h3 class="card-title">
+  <i class="fas fa-exclamation-triangle"></i>
+ Alertas
+</h3>
+</div>
+
+<div class="card-body">
+{% for error in form.non_field_errors %}
+  <div class="alert alert-warning" role="alert">
+      {{ error }}
+  </div>
+{% endfor %}   
+</div>
+{% endif %} 
+
+
+
+
+

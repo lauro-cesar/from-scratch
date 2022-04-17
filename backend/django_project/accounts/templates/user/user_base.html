@@ -1,0 +1,83 @@
+{% extends 'base/dashboard.html' %}
+{% load i18n l10n static project_tags %}
+{% block page_content_header_title %}{% endblock page_content_header_title %}
+{% block breadcrumb_ol_itens %}
+{{block.super}}
+<li class="breadcrumb-item active">Usuário</li>  
+{% endblock breadcrumb_ol_itens %}
+{% block page_content_body %}
+
+
+  <div class="modal bg-dark" id="modal_user_filtros" tabindex="-1" aria-labelledby="Filtros" aria-hidden="true">
+    <div class="modal-dialog  modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">       
+          <h5 class="modal-title text-dark">
+             <i class="fas fa-filter"></i>
+          Filtrar Usuário</h5>
+          <button type="button" id="button_close_modal_user_filtros" class="btn btn-danger" data-dismiss="user_filtros" aria-label="Close">
+          <i class="fas fa-window-close"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+        {% include 'user/user_form_pesquisa.html' %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="segment basic">
+{% block page_content_body_nav_bar %}
+<nav class="navbar navbar-expand navbar-white navbar-dark">
+  <!-- Right navbar links -->
+  <ul class="navbar-nav mr-auto">
+    <!-- Navbar Search -->
+    <li class="nav-item">
+    <a class="btn btn-xs  bg-olive"  {%if next %}href="{{next}}"{%else%}href="{% url 'user-list' %}"{%endif%}>     
+        <i class="fas fa-angle-left"></i>
+        Voltar
+      </a>
+    </li>    
+  </ul>
+</nav>
+
+{% endblock page_content_body_nav_bar %}
+    
+
+    {% block page_content_body_main %}
+    {% endblock page_content_body_main %}
+    
+
+    {% block page_content_body_footer %}
+    {% endblock page_content_body_footer %}
+
+
+
+
+
+</div>
+
+
+{% endblock page_content_body %}
+
+
+{% block end_body_tag %}
+{{block.super}}
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+
+  $("#button_open_modal_user_filtros").click(function () {
+    $("#modal_user_filtros").toggle();
+  });
+
+  $("#button_close_modal_user_filtros").click(function () {
+    $("#modal_user_filtros").toggle();
+  });
+
+});
+</script>
+
+{% endblock end_body_tag %}

@@ -1,0 +1,102 @@
+{% load i18n l10n static project_tags %}
+<!DOCTYPE html>
+{% block pre_html_tag %}{% endblock pre_html_tag%}
+<html lang="pt-br">
+<head>
+  <title>
+    {% block html_title %}{% endblock html_title %}
+  </title>  
+{% block html_meta %}
+  <meta charset="{{html_charset}}">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+{% endblock html_meta %}
+
+{% block head_js_links %}
+{{block.super}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+{% endblock head_js_links %}
+
+
+{% block head_css_links %}
+{{block.super}}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+{% endblock head_css_links %}
+
+
+{% block head_css_inline %}
+<style>
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+div.pusher {
+  height: 100%;
+}
+
+
+</style>
+
+
+{% endblock head_css_inline %}
+
+
+
+{% block head_js_inline %} 
+ <script type="text/javascript"> 
+  var globalForm = {};
+  </script>
+{% endblock head_js_inline%}
+</head>
+
+
+{% block pre_body_tag %}{% endblock pre_body_tag %}
+  
+
+{% block body_tag %}
+<body>
+{% endblock body_tag %}
+
+  
+  {% block core_top_menu %}{% endblock core_top_menu %}
+ 
+
+
+  {% block side_menu %}{% endblock side_menu %}  
+
+
+
+{% block core_body %}
+
+{% endblock core_body %}  
+
+{% block core_footer %}{% endblock core_footer %}
+
+
+{% block end_body_tag %}{% endblock end_body_tag %}
+
+{% block bottom_js %}
+<script type="text/javascript">
+$(document).ready(function() {
+		if(typeof(docIsReady) != "undefined"){
+		docIsReady.postMessage('doc pronto');
+		}
+});
+</script>
+{% endblock bottom_js %}
+
+
+</body>
+{% block post_body_tag %}
+{% endblock post_body_tag %}
+</html>
+{% block post_html_tag %}{% endblock post_html_tag %}
