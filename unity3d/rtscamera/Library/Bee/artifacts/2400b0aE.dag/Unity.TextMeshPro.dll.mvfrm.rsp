@@ -1,5 +1,16 @@
 Library/Bee/artifacts/mvdfrm/UnityEditor.UI.ref.dll_452FB8EBD860BCAB.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_01958F46DE82E516.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Mdb.dll_1C1E7A079A82671D.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Pdb.dll_3370F277193768A0.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Rocks.dll_09720F0262073CC0.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.dll_56FFFD076FF72BE0.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Unsafe.dll_956805F309C780B3.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Plastic.Antlr3.Runtime.dll_44AD62B972698A1B.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_4F59EFF5B021A7EA.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.IonicZip.dll_11D283E258832020.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.YamlDotNet.dll_B9BD2E0B47BABA5C.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.TextureAssets.dll_50DB575F08881854.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_6B2A54EC7883CA7B.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_950C8AAFF2CE3729.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_E2A31155FD4063F7.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_761D92AA3F8A4C7A.mvfrm
@@ -86,9 +97,3 @@ Library/Bee/artifacts/mvdfrm/UnityEditor.LinuxStandalone.Extensions.dll_CCE08133
 Library/Bee/artifacts/mvdfrm/UnityEditor.OSXStandalone.Extensions.dll_72901079709D1544.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.WebGL.Extensions.dll_82F40F62CD05A3A9.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.WindowsStandalone.Extensions.dll_2ABC7E712CAF0C19.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.Plastic.Antlr3.Runtime.dll_3F69DABC71130D67.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_F08F4F96FECD59DE.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.IonicZip.dll_ACC261085830BA14.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.YamlDotNet.dll_EAAA9CDC5BBB48A8.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.TextureAssets.dll_81C8C6301C88A6A0.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_9C17C3BD8C8458C7.mvfrm
