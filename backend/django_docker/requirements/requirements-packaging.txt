@@ -1,4 +1,0 @@
-wheel
-twine
-transifex-client
-Pygments>=2.5.1
